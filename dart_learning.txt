@@ -1,0 +1,72 @@
+install the dart sdk or download hte package to code in the dart language
+
+https://gekorm.com/dart-windows/
+Add the 'C:\Program Files\Dart\dart-sdk\bin in the env system variables
+
+
+print() is used for the printin gof the data
+${expression} is used for the expression execution
+; it is mandatory in dart programming
+
+dart --version --checks the version of the installation of dart 
+61 keywords are present in the dart programming
+
+keywords are subscript(1,2,3 ) 
+subscript --1 are contextual keywords
+subscript -2 are built in keywords
+subscript-3  are asynchrony
+
+Data Types in dart are
+Number ,strings,boolean,lists,maps,runes(UTF-32 code),sybmol
+
+
+var name='GAnesh'
+int age=20
+string messge = 'good mbvoy'
+
+if we dont want to hcange the value of the vairbal use the 
+final and const
+
+final string or final variables
+here also same operators
+arthemitoc operratos,assignment,relational,type test ,logical,bitwise,conditional
+
+
+
+
+OOps
+Class --- classess are defined  blueprint of associated objects.
+to get the properties of the clss we need the object.--it is a user defined class which declares the characterist and behaviour of it
+class className{
+    >fields>
+    <getters/setters>
+    <constructorS>
+    <functions>
+}
+
+Object --Object is a real life entity of the table.hunman.it has 2 charactreistsic.state and behaviour
+
+var object  = new ClassNAme(constructor arguments)
+
+inheritance -- used to create a new class from the existing classes .The CLass that to be extendded is called as 
+parent /super class
+class child_class extends Parent_Class
+
+polymorphism --where one thing has many forms. 2 types --run time polymorphism,or compiler polymorphism
+example as function has same name but different functionality or class
+another was shape() which was inherited from rectange,circle,and triangle
+
+interferences - -these also blueprint of the class.We can declare methods and variables inside the interface just like the class but in interface only abstract declaration of methods is provided.
+
+abstract class --A class that contains more than abstract method is called abstract class
+
+
+Constrcutor has teh same name as the class -
+class ClassName{
+    ClassName(){
+        
+    }
+}
+default contructor no arguments
+parameter constructor
+named constructor
